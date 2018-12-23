@@ -1,0 +1,4 @@
+name: 'Media Revision Log'
+description: 'This module enables the ability to view the revisions of a media'
+core: '8.x' 
+requirements: 'view media'

@@ -1,4 +1,4 @@
-This repository are for modules that I've created for the projects that I am on that may be of use to the Drupal community.
+This repository is for modules that I've created for the projects that I am on that may be of use to the Drupal community.
 
 Modules I've created:
 

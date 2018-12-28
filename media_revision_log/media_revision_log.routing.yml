@@ -1,0 +1,12 @@
+entity.media.history:
+  path: '/media/{media}/revisions'
+  defaults:
+    _title: 'Revisions'
+    _controller: 'Drupal\media_revision_log\Controller\RevisionController::revisionOverview'
+  options:
+    parameters:
+      media:
+        type: entity:media
+    _admin_route: TRUE
+  requirements:
+    _permission: 'view media'

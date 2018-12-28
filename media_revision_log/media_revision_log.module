@@ -1,0 +1,16 @@
+<?php
+
+/**
+ * @file
+ * The media revision log module adds a revisions tab to the Media entity and allows the
+ * user to see a list of revision log messages based on the translation the user is on.
+ */
+
+/**
+ * Implements hook_help().
+ */
+function media_revision_log_help($route_name, \Drupal\Core\Routing\RouteMatchInterface $route_match) {
+  if ($route_name == 'entity.media.history') {
+    return '<p>' . t('This is a log of revisions for this media.') . '</p>';
+  }
+}

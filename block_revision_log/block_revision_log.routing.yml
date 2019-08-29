@@ -1,0 +1,12 @@
+entity.block_content.history:
+  path: '/block/{block_content}/revisions'
+  defaults:
+    _title: 'Revisions'
+    _controller: 'Drupal\block_revision_log\Controller\RevisionController::revisionOverview'
+  options:
+    parameters:
+      block_content:
+        type: entity:block_content
+    _admin_route: TRUE
+  requirements:
+    _permission: 'access content'

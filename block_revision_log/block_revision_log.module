@@ -1,0 +1,11 @@
+<?php
+
+use Drupal\block_content\Entity\BlockContent;
+
+/**
+ * Implements hook_ENTITY_TYPE_create().
+ */
+function block_revision_log_block_content_create(BlockContent $block) {
+  $uid = \Drupal::currentUser()->id();
+  $block->set('revision_user', $uid);
+}

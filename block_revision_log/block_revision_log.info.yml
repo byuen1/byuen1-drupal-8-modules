@@ -1,0 +1,6 @@
+name: 'Block Revision Log'
+description: 'Makes a revision log viewable for Blocks.'
+package: 'Bruce'
+type: module
+version: '8.x-1.0'
+core: '8.x'

@@ -1,0 +1,5 @@
+entity.block_content.revisions_form:
+  title: Revisions
+  route_name: entity.block_content.history
+  base_route: entity.block_content.canonical
+  weight: 20
